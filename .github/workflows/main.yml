@@ -1,0 +1,12 @@
+name: First workflow
+on: repository_dispatch
+jobs: 
+  first_jobgs: 
+    runs-on: ubuntu-latest
+    steps:
+    - name: Login to DockerHub Registry
+      run: echo "Hello World"
+    - name: Print Bye 
+      run: echo "Good Bye 😘"
+      
+    
