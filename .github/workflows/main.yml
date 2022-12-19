@@ -1,5 +1,5 @@
 name: First workflow
-on: repository_dispatch
+on: workflow_dispatch
 jobs: 
   first_jobgs: 
     runs-on: ubuntu-latest
